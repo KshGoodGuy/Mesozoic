@@ -1,0 +1,57 @@
+package dinosaur;
+public class DinosaurPark {
+    public static void main(String[] args) {
+        
+        String breed = "Tyrannosaurus";
+        int height = 15;
+        int length = 40;
+        double weight = 90.4;
+
+        
+        System.out.println("Breed: " + breed);
+        System.out.println("Height: " + height + " m");
+        System.out.println("Length: " + length + " Ly");
+        System.out.println("Weight: " + weight + " Mt");
+
+        
+        int age = 13;
+        String name = "삐약이";
+        boolean carnivore = true;
+
+        System.out.println("Age: " + age + " years");
+        System.out.println("Name: " + name);
+        System.out.println("Carnivore: " + carnivore);
+
+        
+        int Visitors = 800;
+        System.out.println("There's a maximum of " + Visitors + " people allowed in Mesozoic Eden.");
+
+        
+        String employeeName = "Kim Beomsu";
+        int employeeAge = 17;
+
+        System.out.println("--Profile--");
+        System.out.println("Name: " + employeeName);
+        System.out.println("Age: " + employeeAge);
+        
+        int dNumber = 800;
+        
+        System.out.println("Number of dinosaur : " + dNumber);
+        
+        int safetyRating = 10;
+        
+        System.out.println("Safetyrating : " + safetyRating);
+        
+        String diet = "carnivore";
+        
+        System.out.println("Dinosaur Profile: " + name + ", " + age + "years old, Diet : " + diet);
+        
+        char Letter = 'T';
+        String species = "Tyrannosaurus";
+        
+        System.out.println("SpeciesFirstLetter : " + Letter);
+        
+        System.out.println("Meet " + name + ", a " + age + "-year-old " + species + ". As a " + diet +
+                ", it has a robust weight of " + weight + " kilograms.");
+    }
+}
